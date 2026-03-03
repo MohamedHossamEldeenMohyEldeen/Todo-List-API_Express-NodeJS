@@ -1,3 +1,7 @@
+# Ignored Files
+test.js
+posts.js
+
 # Logs
 logs
 *.log

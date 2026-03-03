@@ -1,0 +1,25 @@
+{
+  "name": "node.js-express",
+  "version": "1.0.0",
+  "description": "Mini Job Application Tracker API",
+  "homepage": "https://github.com/MohamedHossamEldeenMohyEldeen/Job-Application-Tracker-API#readme",
+  "bugs": {
+    "url": "https://github.com/MohamedHossamEldeenMohyEldeen/Job-Application-Tracker-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedHossamEldeenMohyEldeen/Job-Application-Tracker-API.git"
+  },
+  "license": "ISC",
+  "author": "Mohamed Hossam",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --env-file=.env server.js",
+    "start-test": "nodemon --env-file=.env test.js"
+  },
+  "devDependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
